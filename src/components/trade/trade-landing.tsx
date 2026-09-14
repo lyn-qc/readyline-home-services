@@ -57,7 +57,7 @@ export function TradeLanding({ site }: { site: DemoSite }) {
         <div className="absolute inset-0">
           <Image
             src={site.imageHero}
-            alt=""
+            alt={site.imageHeroAlt}
             fill
             priority
             className="object-cover"
@@ -137,7 +137,7 @@ export function TradeLanding({ site }: { site: DemoSite }) {
             </ul>
           </div>
           <div className="relative min-h-72 overflow-hidden rounded-3xl">
-            <Image src={site.imageSecondary} alt="" fill className="object-cover" sizes="(min-width: 1024px) 50vw, 100vw" />
+            <Image src={site.imageSecondary} alt={site.imageSecondaryAlt} fill className="object-cover" sizes="(min-width: 1024px) 50vw, 100vw" />
           </div>
         </div>
       </section>
@@ -157,7 +157,7 @@ export function TradeLanding({ site }: { site: DemoSite }) {
 
       <section id="reviews" className="bg-[color:var(--trade-band)] py-16">
         <div className="mx-auto max-w-6xl px-4">
-          <h2 className="font-[family-name:var(--trade-display)] text-3xl">Reviews from {site.city}</h2>
+          <h2 className="font-[family-name:var(--trade-display)] text-3xl">Sample reviews from {site.city}</h2>
           <div className="mt-8 grid gap-4 md:grid-cols-3">
             {site.reviews.map((review) => (
               <figure key={review.name} className="rounded-2xl bg-[color:var(--trade-card)] p-5">
