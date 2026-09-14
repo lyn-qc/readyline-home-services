@@ -41,6 +41,9 @@ export function LeadForm({ site, className }: LeadFormProps) {
         <p className="mt-3 text-sm leading-6 opacity-80">
           We will text an arrival window shortly. If this cannot wait, call {site.phoneDisplay} now.
         </p>
+        <p className="mt-3 text-sm font-medium leading-6">
+          Demo only — this form does not notify a real dispatch desk.
+        </p>
         <button
           type="button"
           className="mt-5 inline-flex h-11 items-center rounded-lg bg-[color:var(--trade-accent)] px-5 text-base font-semibold text-[color:var(--trade-accent-ink)]"

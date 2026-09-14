@@ -1,6 +1,6 @@
 # ReadyLine
 
-Marketing sites for three U.S. home-service shops: HVAC in Phoenix, plumbing in Houston, and cleaning in Austin. Built to convert phone calls and booking requests.
+Portfolio demos of marketing sites for three fictional U.S. home-service shops: HVAC in Phoenix, plumbing in Houston, and cleaning in Austin. Built to convert phone calls and booking requests. Brands, reviews, and license numbers are sample copy.
 
 ## Run locally
 
@@ -25,4 +25,6 @@ Default URL: http://127.0.0.1:43145
 - `/plumbing` Harborline — Houston leaks, drains, water heaters
 - `/cleaning` BrightNest — Austin home and office cleaning
 
-Phone numbers use the 555 exchange. The booking form stays on the page and does not send email.
+Every page carries a demo banner. Phone numbers use the 555 exchange. The booking form stays on the page and does not notify a dispatch desk.
+
+Phoenix, Houston, and Austin are multi-market samples — they are not meant to overlap a Columbus cold-email list.

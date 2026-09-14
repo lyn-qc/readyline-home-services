@@ -37,7 +37,7 @@ export default function HomePage() {
           <div className="mx-auto max-w-6xl px-4">
             <h2 className="font-[family-name:var(--font-fraunces)] text-3xl">What do you need fixed?</h2>
             <p className="mt-3 max-w-2xl text-white/65">
-              Pick the trade. Each shop posts a real phone number on the first screen.
+              Pick the trade. Each shop puts a phone CTA on the first screen.
             </p>
             <div className="mt-10 grid gap-6 lg:grid-cols-3">
               {homeServices.map((service) => (
