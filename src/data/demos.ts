@@ -41,7 +41,9 @@ export type DemoSite = {
   formHint: string;
   fields: LeadField[];
   imageHero: string;
+  imageHeroAlt: string;
   imageSecondary: string;
+  imageSecondaryAlt: string;
 };
 
 export const demoSites: Record<VerticalId, DemoSite> = {
@@ -101,7 +103,7 @@ export const demoSites: Record<VerticalId, DemoSite> = {
       },
       {
         title: "Stocked trucks",
-        body: "Capacitors, contactors, capacitors, motors, and common condensers ride with the tech.",
+        body: "Capacitors, contactors, motors, and common condensers ride with the tech.",
       },
     ],
     steps: [
@@ -161,8 +163,10 @@ export const demoSites: Record<VerticalId, DemoSite> = {
     ],
     imageHero:
       "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=1600&q=80",
+    imageHeroAlt: "Technician servicing a rooftop air conditioner in Phoenix heat",
     imageSecondary:
       "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=1200&q=80",
+    imageSecondaryAlt: "HVAC tech checking gauges on a commercial condenser",
   },
   plumbing: {
     id: "plumbing",
@@ -280,8 +284,10 @@ export const demoSites: Record<VerticalId, DemoSite> = {
     ],
     imageHero:
       "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&w=1600&q=80",
+    imageHeroAlt: "Plumber repairing a kitchen faucet at a Houston sink",
     imageSecondary:
       "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&fit=crop&w=1200&q=80",
+    imageSecondaryAlt: "Copper supply lines and shutoff valves under a sink",
   },
   cleaning: {
     id: "cleaning",
@@ -405,8 +411,10 @@ export const demoSites: Record<VerticalId, DemoSite> = {
     ],
     imageHero:
       "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1600&q=80",
+    imageHeroAlt: "Cleaner mopping a bright kitchen floor in an Austin home",
     imageSecondary:
       "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
+    imageSecondaryAlt: "Sunlit living room after a recurring house clean",
   },
 };
 
